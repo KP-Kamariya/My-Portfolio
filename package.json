@@ -1,9 +1,12 @@
 {
+  "homepage": "https://KP-Kamariya.github.io/My-Portfolio",
   "name": "my_portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
@@ -13,6 +16,7 @@
     "axios": "^1.13.5",
     "bootstrap": "^5.3.8",
     "bootstrap-icons": "^1.13.1",
+    "gh-pages": "^6.3.0",
     "nodemailer": "^8.0.1",
     "react": "^19.2.0",
     "react-bootstrap": "^2.10.10",
