@@ -4,7 +4,7 @@ import './Mywork.css'
 import istudio from '../assets/istudio.png'
 import fofana from '../assets/fofana.png'
 import baikal from '../assets/baikal.png'
-import invena from '../assets/invena.png' 
+import invena from '../assets/invena.png'
 
 const Mywork = () => {
   return (
@@ -42,7 +42,7 @@ const Mywork = () => {
             </div>
             <div className="row d-flex flex-wrap">
               <div className="col">
-                <a href="https://fofana-portfolio-clone-33mi.vercel.app/" target='_blank' v>
+                <a href="https://fofana-portfolio-clone-33mi.vercel.app/" target='_blank'>
                   <img src={baikal} alt="img"
                     className="img-fluid rounded-3" />
                 </a>
@@ -51,12 +51,12 @@ const Mywork = () => {
                   <p className='text-black'>I developed a Baikal clone website with multiple pages using HTML, CSS, and Bootstrap. It is fully responsive and designed with a clean, structured layout.</p>
                 </div>
               </div>
-              <div class="col">
+              <div className="col">
                 <a href="https://invena-business-git-main-khushbus-projects-05b0696b.vercel.app/" target='_blank'>
                   <img src={invena} alt="img"
-                    class="img-fluid rounded-3" />
+                    className="img-fluid rounded-3" />
                 </a>
-                <div class="designtext">
+                <div className="designtext">
                   <h5 className="">Invena</h5>
                   <p className='text-black'>I created an Invena Business clone website using HTML, CSS, Bootstrap, and React. It is responsive and built with reusable React components for a clean design.</p>
                 </div>
