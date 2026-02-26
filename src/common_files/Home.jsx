@@ -1,5 +1,6 @@
 import React from 'react'
 import './Home.css'
+import profilePic from '../assets/profile-pic.jpg'
 
 const Home = () => {
     return (
@@ -8,7 +9,7 @@ const Home = () => {
                 <div className="container-fluid bg-black text-white" style={{ padding: "150px 0px 60px 0px" }}>
                     <div className="container text-center">
                         <div className='profile-pic'>
-                            <img src="../public/Resume/profile-pic2.jpg" alt="" width={'150px'} className='rounded-circle' />
+                            <img src={profilePic} alt="Profile Picture" width={'150px'} className='rounded-circle' />
                         </div>
                         <div className='py-4'>
                             <h4>Hi! I'm Khushbu Kamariya <img src="https://themewagon.github.io/eliana-nextjs/assets/hand-icon.png" alt="" className='w-6 ' width={'30px'} /> </h4>

@@ -2,6 +2,9 @@ import React from 'react'
 import './Mywork.css'
 
 import istudio from '../assets/istudio.png'
+import fofana from '../assets/fofana.png'
+import baikal from '../assets/baikal.png'
+import invena from '../assets/invena.png' 
 
 const Mywork = () => {
   return (
@@ -28,7 +31,7 @@ const Mywork = () => {
               </div>
               <div className="col">
                 <a href="https://fofana-portfolio-clone.vercel.app/" target='_blank'>
-                  <img src="../public/Project/fofana.png" alt="" height={''}
+                  <img src={fofana} alt="img"
                     className="img-fluid rounded-3" />
                 </a>
                 <div className="designtext">
@@ -40,7 +43,7 @@ const Mywork = () => {
             <div className="row d-flex flex-wrap">
               <div className="col">
                 <a href="https://fofana-portfolio-clone-33mi.vercel.app/" target='_blank' v>
-                  <img src="../public/Project/baikal.png" alt=""
+                  <img src={baikal} alt="img"
                     className="img-fluid rounded-3" />
                 </a>
                 <div className="designtext">
@@ -50,7 +53,7 @@ const Mywork = () => {
               </div>
               <div class="col">
                 <a href="https://invena-business-git-main-khushbus-projects-05b0696b.vercel.app/" target='_blank'>
-                  <img src="../public/Project/invena.png" alt=""
+                  <img src={invena} alt="img"
                     class="img-fluid rounded-3" />
                 </a>
                 <div class="designtext">
