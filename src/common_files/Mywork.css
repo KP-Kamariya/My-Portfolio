@@ -1,0 +1,27 @@
+.con-info {
+
+    font-family: "Outfit", sans-serif;
+    padding: 1.5rem;
+    transition: all ease-in;
+}
+
+.con-info:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 1.5);
+    background-color: rgb(37, 7, 52);
+}
+
+.designtext {
+    position: relative;
+    margin-left: 100px;
+    /* margin-right: 40px; */
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    margin-bottom: -40px;
+    top: -70px;
+    padding: 25px;
+}
+
+.designtext h5 {
+    color:  #b820e6;
+}

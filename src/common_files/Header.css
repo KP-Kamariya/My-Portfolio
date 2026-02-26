@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Ovo", serif;
+}
+
+span {
+    color: #b820e6;
+}
+
+.headlink {
+    position: relative;
+    animation: fadeIn 1s ease-in-out;
+      display: inline-block;
+
+}
+
+.headlink::after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-image: linear-gradient(to right, #b820e6, #da7d20);
+    left: 0;
+    bottom: 1px;
+    transition: 0.3s;
+}
+
+.headlink:hover::after {
+    width: 100%;
+}
+
+.nav-menu ul {
+    display: flex;
+}
+
+
+
+/* Logo */
+.logo {
+  font-size: 26px;
+}
+
+/* Resume Right Fix */
+.resume-link {
+  margin-left: auto;
+  transition: 0.3s;
+}
+
+.resume-link:hover {
+  color: #b820e6 !important;
+}
+
+/* Menu spacing */
+.custom-menu .nav-link {
+  margin: 0 18px;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  color: #b820e6 !important;
+}
+
+@media (max-width: 991px) {
+
+    .nav-menu {
+        display: none;
+        margin-top: 15px;
+    }
+
+    .nav-menu.show {
+        display: block;
+    }
+
+    .nav-menu ul {
+        flex-direction: column;
+        gap: 15px;
+        background: black;
+        text-align: center;
+    }
+     .navbar-collapse {
+    background: black;
+    padding: 15px 0;
+  }
+
+  .resume-link {
+    display: none; /* Hide resume in mobile if needed */
+  }
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

@@ -1,0 +1,6 @@
+.button1{
+     background-image: linear-gradient(to right, #b820e6, #da7d20);
+}
+section {
+  scroll-margin-top: 70px;   /* header ni height jetlu */
+}
