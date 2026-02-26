@@ -17,7 +17,11 @@ const Mywork = () => {
             <div className="row d-flex flex-wrap pt-5">
               <div className="col">
                 <a href="https://istudio-clone-lkl6.vercel.app/" target='_blank'>
+<<<<<<< HEAD
                   <img src={istudio} alt=""
+=======
+                  <img src="/istudio.png" alt=""
+>>>>>>> ae542886818eb1891ab66a4df2071cb723344c21
                     className="img-fluid rounded-3" />
                 </a>
                 <div className="designtext">
