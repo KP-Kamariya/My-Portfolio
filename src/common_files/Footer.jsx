@@ -6,7 +6,7 @@ const Footer = () => {
             <div className="container-fluid bg-black text-white py-5 text-center">
                 <div className="container">
                     <div>
-                        <h2 className='fw-bold'>khushbu<span style={{color:"#b820e6"}}>.</span></h2><p><i className="bi bi-envelope-at-fill pe-2"></i><a href="" className='nav-link headlink text-decoration-none text-white'>kamariyakhushbu@gmail.com</a></p></div>
+                        <h2 className='logo fw-bold'>Khushbu<span style={{color:"#b820e6"}}>.</span></h2><p><i className="bi bi-envelope-at-fill pe-2"></i><a href="" className='nav-link headlink text-decoration-none text-white'>kamariyakhushbu@gmail.com</a></p></div>
                     <hr />
 
                     <div className="row">

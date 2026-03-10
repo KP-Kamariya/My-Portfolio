@@ -17,7 +17,7 @@ const Header = () => {
 
           {/* Logo */}
           <a className="navbar-brand fw-bold text-white logo" href="#home">
-            khushbu<span>.</span>
+            Khushbu<span>.</span>
           </a>
 
           {/* Toggle Button */}
@@ -58,7 +58,7 @@ const Header = () => {
 
           {/* Resume Right */}
           <a
-            href="/Resume/Front-End Developer.pdf"
+            href="/Resume/Frontend developer.pdf"
             target="_blank"
             rel="noreferrer"
             className="resume-link text-white text-decoration-none"

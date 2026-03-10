@@ -20,7 +20,7 @@ const Home = () => {
                             <button className=' text-light button1 py-1 px-3 fw-bolder border-1 rounded-pill'>Hire Me <i className="bi bi-arrow-right"></i></button>
 
 
-                            <button className='bg-black py-1 px-3 fw-bolder border border-secondary border-1 rounded-pill '><a href="../public/Resume/Front-End Developer.pdf" target='_blank' className='text-white text-decoration-none fs-5 fw-light'>Download CV <i className="bi bi-download"></i></a></button>
+                            <button className='bg-black py-1 px-3 fw-bolder border border-secondary border-1 rounded-pill '><a href="/Resume/Frontend developer.pdf" target='_blank' className='text-white text-decoration-none fs-5 fw-light'>Download CV <i className="bi bi-download"></i></a></button>
                         </div>
                     </div>
                 </div>
